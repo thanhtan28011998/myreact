@@ -14,7 +14,8 @@ class App extends Component {
       {title:'Bird'}, 
       {title:'Chicken', isDone: true}, 
       {title:'Snack'}, 
-      {title:'Fish'}
+      {title:'Fish'},
+      {title:'Human'}
     ];
   }
   onItemClicked(item){
