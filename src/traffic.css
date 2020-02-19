@@ -1,0 +1,24 @@
+.traffic{
+    display: flex;
+    flex-direction: column;
+}
+.traffic .buld{
+    width: 4em;
+    height: 4em;
+    display: inline-block;
+    border-radius: 50%;
+    margin: 10px;
+    opacity: 0.2;
+}
+.traffic .buld.active{
+    opacity: 1;
+}
+.traffic .buld.red{
+    background-color: red;
+}
+.traffic .buld.yellow{
+    background-color: yellow;
+}
+.traffic .buld.green{
+    background-color: green;
+}
